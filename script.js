@@ -12,20 +12,20 @@ const gifStages = [
 const noMessages = [
     "No",
     "Are you positive? 🤔",
-    "Pookie please... 🥺",
-    "If you say no, I will be really sad...",
-    "I will be very sad... 😢",
-    "Please??? 💔",
-    "Don't do this to me...",
+    "Seriusss Ayangggg?... 🥺",
+    "Sumpahhhh No?, I will be really sad...",
+    "Huaaaa Syedihhhhh... 😢",
+    "Reallyyy, Please??? 💔",
+    "Jangannn Ayanggggg...",
     "Last chance! 😭",
     "You can't catch me anyway 😜"
 ]
 
 const yesTeasePokes = [
-    "try saying no first... I bet you want to know what happens 😏",
-    "go on, hit no... just once 👀",
-    "you're missing out 😈",
-    "click no, I dare you 😏"
+    "Klik NO dulu Ayangggg😏",
+    "No duluuu ayangggg 👀",
+    "IHHHHH NO duluuuu 😈",
+    "click no, Ngeyell Bet sihhhh 😏"
 ]
 
 let yesTeasedCount = 0
@@ -142,4 +142,5 @@ function runAway() {
     noBtn.style.left = `${randomX}px`
     noBtn.style.top = `${randomY}px`
     noBtn.style.zIndex = '50'
+
 }
